@@ -1,44 +1,59 @@
 body {
-    background-image: url(fondo.jpg);
-    background-image: no-repeat;
- background-image: fixed;
- background-image: center;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- border: 40px white;
- text-align: center;
+    background: url(fondo.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 40px solid white;
+    text-align: center;
 }
-.barra{
-    color: azure;
+
+ul.navega li {
+    display: inline;
+    list-style: disc;
 }
-.text{  
-    color:black;
+
+.centrar-listas {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.centrar-listas ul,
+.centrar-listas ol {
+    text-align: left;
+    display: inline-block;
+}
+
+.barra {
+    color: rgb(218, 255, 10);
+}
+
+.text {
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 55px;
-    text-shadow: 5px 5px whitesmoke;
+    text-shadow: 5px 5px 0px whitesmoke;
     text-align: center;
 }
 
-    
-    
-
-.vid{
-    color:black;
+.vid {
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
-    text-shadow: 5px 5px whitesmoke;
+    text-shadow: 5px 5px 0px whitesmoke;
     text-align: center;
-
 }
-.caja { 
-    font-family: Georgia; 
-    text-shadow: rgb(0, 0, 0) 1px 1px;
-    font-size: 35px; 
-    font-weight: 200; 
-    color: #ffffff; 
-    background:#aceb1b 
-    width: center;
 
+.caja {
+    text-align: justify;
+    font-family: Georgia;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 35px;
+    font-weight: 200;
+    color: #ffffff;
+    background: #1404f1;
+    width: 200px;
+    margin:auto
+    /* Ajusta el valor de acuerdo a tus necesidades */
 }
