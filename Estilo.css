@@ -1,3 +1,28 @@
+<style>
+  main {
+    background: #d9d7d5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  div {
+    background: #767775;
+    flex-basis: 100%;
+    height: 100px;
+    margin-bottom: 0.5rem;
+  }
+
+  @media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+
+    div {
+      flex-basis: 33%;
+    }
+  }
+
 body {
     background: url(fondo.jpg) no-repeat fixed center;
     -webkit-background-size: cover;
@@ -55,5 +80,5 @@ ul.navega li {
     background: #1404f1;
     width: 200px;
     margin:auto
-    /* Ajusta el valor de acuerdo a tus necesidades */
+    
 }
