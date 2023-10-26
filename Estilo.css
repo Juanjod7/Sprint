@@ -32,6 +32,18 @@ body {
     border: 40px solid blue;
     text-align: center;
 }
+.boton {
+  display: inline-block;
+  padding: 10px 20px; /* Ajusta el espaciado para el tamaño deseado */
+  background-color: #3498db; /* Color de fondo del botón */
+  color: #fff; /* Color del texto */
+  border: none; /* Elimina el borde */
+  border-radius: 5px; /* Agrega bordes redondeados */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px; /* Tamaño del texto */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
 
 ul.navega li {
     display: inline;
