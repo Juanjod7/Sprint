@@ -44,9 +44,8 @@ ul.navega li {
     color: black;
 }
 
-.centrar-listas ul,
 .centrar-listas ol {
-    text-align: left;
+    text-align: center;
     display: inline-block;
 }
 
@@ -79,6 +78,6 @@ ul.navega li {
     color: #ffffff;
     background: #1404f1;
     width: 200px;
-    margin:auto
+    margin: auto;
     display: inline-block;
 }
